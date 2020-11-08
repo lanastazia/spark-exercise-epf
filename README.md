@@ -13,7 +13,9 @@ Exercise to preprocess advertising data with Spark
 1. Read json dataframe and create a Dataset
 2. Lowercase "os" column 
 3. Enrich dataframe with 4 new columns : 
+   
     3.1 Given size column create two different columns : width and length
+   
     3.2 Given timestamp create two columns : datetime, and create date column 
 4. Compute ratio of null values by every column
 5. Create one column by interest category from interests
