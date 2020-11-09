@@ -8,7 +8,7 @@ Exercise to preprocess advertising data with Spark
 2. Install sbt https://www.scala-sbt.org/download.html
 3. Install intelij (optional) https://www.jetbrains.com/idea/
 
-## Functionalites to develop
+## Functionalities to develop
 
 1. Read json dataframe and create a Dataset
 2. Lowercase "os" column 

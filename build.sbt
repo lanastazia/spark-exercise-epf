@@ -27,5 +27,3 @@ val sparks = Seq(
 libraryDependencies ++= Seq(
   "com.typesafe.scala-logging" %% "scala-logging" % "3.5.0",
   "org.scalatest" %% "scalatest" % "3.0.5" % "test") ++ sparks
-
-parallelExecution in Test := false
