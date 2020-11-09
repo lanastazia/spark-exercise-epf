@@ -9,6 +9,7 @@ zeppelin:
         MASTER: local[*]
     ports:
         - 8080:8080
+        - 4040:4040
     volumes:
         - data:/usr/zeppelin/data
         - notebooks:/usr/zeppelin/notebook
