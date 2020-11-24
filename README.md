@@ -20,10 +20,15 @@ Exercise to preprocess advertising data with Spark
     
  The final dataframe for output is the result of createEnrichedataset function
 4. Compute ratio of null values by every column
+
 5. Save dataframe to parquet, partition by date
+
 6. Save dataframe to avro, partition by date
+
 7. Save dataframe to json, partition by date
+
 8. Benchmark the writing time of different formats, specifying the computional ressources you have, 
 as well as the config of your spark job and explain the possible reasons of  differences, and in which case you prefer that or this format 
 (you can write directly in Readme)
+
 9. Write unit test for creation of date column in createEnrichedataset function of AdsProcesser object
